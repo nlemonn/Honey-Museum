@@ -1,0 +1,191 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.top-bar{
+	height: 90px;
+	width: 100%;
+	background-color: rgba(100%,100%,100%,0.9);
+	position: fixed;
+	z-index: 999;
+}
+.logo{
+	padding: 15px 100px 20px 0;
+}
+.navbar ul{
+	list-style-type: none;
+	padding-left: 45px;
+}
+.navbar li{
+	padding: 10px 17px 0 18px;
+	display: inline-block;
+}
+.menu-brand{
+	position: relative;
+}
+.submenu-brand{
+	position: absolute;
+	display: none;
+	background-color: #FFFFFF;
+	opacity: 0.75;
+	margin: 2px;
+}
+.submenu-brand li{
+	display: block;
+	width: 150px;
+	height: 50px;
+}
+.submenu-brand li a{
+	text-align: center;
+	font-size: 9px;
+	font-weight: 400;
+	letter-spacing: 3px;
+	color: #000000;
+	margin-left: 0px;
+	padding: 5px 5px;
+}
+.submenu-brand:hover{
+	color: #209CB5;
+}
+.menu-brand:hover .submenu-brand{
+	display: block;
+}
+.island-topblank{
+	background-color: #FFFFFF;
+	height: 90px;
+}
+.island{
+	background-color: #209CB5;
+	height: 1000px;
+}
+.island-zone{
+	position: relative;
+	width: 1280px;
+	height: 900px;
+	top: 40px;
+}
+.island-hexagon{
+	position: absolute;
+	top: 120px;
+	right: 100px;
+}
+.area-intro{ 
+	position: absolute;
+	top: 10px;
+	right: 400px;
+}
+.news{
+	position: absolute;
+	top: 45px;
+	left: 100px;
+}
+.area-intro p{
+	position: absolute;
+	top: 240px;
+	right: 70px;
+}
+.game-center{
+	position: absolute;
+	top: 125px;
+	right: 190px;
+}
+.brand-story{
+	position: absolute;
+	top: 125px;
+	left: 370px;
+}
+.bee-school{
+	position: absolute;
+	top: 410px;
+	right: 240px;
+}
+.product{
+	position: absolute;
+	top: 410px;
+	left: 560px;
+}
+li{
+	display: inline-block;
+}
+.footer{
+	background-color: #E99413;
+	height: 200px;
+	width: 1280px;
+	position: relative;
+}
+.footer-left{
+	position: absolute;
+	width: 500px;
+	top: 50px;
+	left: 100px;
+}
+.brand-info img{
+	position: absolute;
+	top: 0;
+	right: 100px;
+}
+.brand-info p{
+	position: absolute;
+	top:35px;
+	right: 40px;
+}
+.sociel-media{
+	position: absolute;
+	top: 65px;
+	right: 115px;
+}
+.sociel-media img{
+	width: 50px;
+	padding: 25px 10px 15px 10px;
+}
+.fb:hover{
+	-webkit-filter:opacity(.5);
+}
+.ig:hover{
+	-webkit-filter:opacity(.5);
+}
+.footer-mid{
+	background-color: #F3C517;
+	height: 100px;
+	width: 1px;
+	position: absolute;
+	top:50px;
+	left: 640px;
+}
+.footer-right{
+	width: 500px;
+	position: absolute;
+	top:50px;
+	left: 700px;
+}
+.footer-right a{
+	width: 120px;
+	font-size: 12px;
+	color: #000000;
+	letter-spacing: 3px;
+	padding: 0 25px;
+}
+.footer-right a:hover{
+	color: #F3C517;
+	text-decoration: none;
+}
+.footer-right ul{
+	margin: 4px;
+}
+.new-notify-bg{
+	position: absolute;
+	top: 7px;
+	left: 4px;
+	width: 50px;
+	height: 20px;
+	background-color: #F3C517;
+	padding: 0 10px;
+	border-style: none;
+	border-radius: 20px;
+}
+.new-notify p{
+	position: absolute;
+	top: -3px;
+	left: 13px;
+	text-align: center;
+	line-height: 1px;
+}
